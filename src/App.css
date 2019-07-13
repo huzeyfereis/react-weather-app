@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-image: url(https://i.sozcu.com.tr/wp-content/uploads/2018/08/iecrop/hava-durumu_16_9_1533110026.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  width: 90%;
+  height: auto;
+  background-color: #325b66;
+}
+
+.weather-image {
+  float: left;
+  width: 45%;
+  height: auto;
+}
+
+.search-panel {
+  height: auto;
+  width: 55%;
+  float: right;
+  margin-bottom: -30px;
+}
+
+.city-info-panel {
+  height: auto;
+  width: 55%;
+  float: right;
+}
+
+.city_weather_info {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.city_weather_key {
+  color: #f16051;
+  /* border-bottom: solid 2px rgba(255, 255, 255, 0.06); */
+  padding: 5px 0 5px 0;
+  font-weight: 400;
+}
+
+.city_weather_value {
+  color: #fff;
+  font-weight: 200;
+}
+
+.favorite-cities {
+  height: auto;
+  width: 55%;
+  float: right;
+  font-size: large;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #f16051;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+::placeholder {
+  color: white;
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+  -webkit-text-fill-color: #fff !important;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("https://i.sozcu.com.tr/wp-content/uploads/2018/08/iecrop/hava-durumu_16_9_1533110026.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
